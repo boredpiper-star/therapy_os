@@ -108,7 +108,7 @@ export default async function ManualInvoicePage({ params }: { params: Promise<{ 
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1.5">Billed To</p>
             <h3 className="text-lg font-bold text-slate-900">{parentName}</h3>
             <div className="mt-1 border-l-2 border-slate-200 pl-3">
-              <p className="text-sm font-medium text-slate-700">Patient: {invoice.patient.full_name}</p>
+              <p className="text-sm font-medium text-slate-700">Client: {invoice.patient.full_name}</p>
               <p className="text-xs text-slate-500 font-mono mt-0.5">ID: {invoice.patient.display_id}</p>
             </div>
           </div>
